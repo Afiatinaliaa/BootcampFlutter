@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/Tugas/Tugas-10/HomeScreen.dart';
-import 'package:sanberappflutter/Tugas/Tugas-10/LoginScreen.dart';
-//import 'Tugas/Tugas-9/Telegram.dart';
+//import 'package:sanberappflutter/Tugas/Tugas-11/HomeScreen.dart';
+//import 'package:sanberappflutter/Tugas/Tugas-11/LoginScreen.dart';
+import 'package:sanberappflutter/Tugas/Tugas-11/NavBar.dart';
+
 
 
 void main() {
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: Telegram(),
       //home: HomeScreen(),
-      home: LoginScreen(),
+      //home: LoginScreen(),
+      home: NavigationBarScreen(),
     );
   }
 }
