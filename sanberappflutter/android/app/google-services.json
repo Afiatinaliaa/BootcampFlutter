@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972924210273",
+    "project_id": "sanber-firebase",
+    "storage_bucket": "sanber-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972924210273:android:8adcd361fc91f0cc79ae20",
+        "android_client_info": {
+          "package_name": "com.example.sanberappflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Tk9VkZerkeBW4DdOpo6Q0xoZzU9o1J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
