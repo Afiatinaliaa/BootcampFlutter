@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:sanberappflutter/Latihan/Latihan-1/get_data_screen.dart';
 import 'package:sanberappflutter/Tugas/Tugas-13/Homepage.dart';
 import 'package:sanberappflutter/Tugas/Tugas-13/LoginPage.dart';
 //import 'package:sanberappflutter/Tugas/Tugas-13/HomePage.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       //home: HomeScreen(),
       //home: LoginScreen(),
       //home: NavigationBarScreen(),
-      home : Loginpage(),
+      home : GetDataScreenStateManagement(),
     );
   }
 }
