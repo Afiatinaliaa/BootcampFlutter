@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
-//import 'package:sanberappflutter/Tugas/Tugas-11/HomeScreen.dart';
-//import 'package:sanberappflutter/Tugas/Tugas-11/LoginScreen.dart';
-// import 'package:sanberappflutter/Tugas/Tugas-11/NavBar.dart';
-import 'package:sanberappflutter/Tugas/Tugas-12/get_data_detail_screen.dart';
-import 'package:sanberappflutter/Tugas/Tugas-12/get_data_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:sanberappflutter/Tugas/Tugas-13/Homepage.dart';
+import 'package:sanberappflutter/Tugas/Tugas-13/LoginPage.dart';
+//import 'package:sanberappflutter/Tugas/Tugas-13/HomePage.dart';
+import 'firebase_options.dart';
 
 
-
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform
+  );
   runApp(MyApp());
 }
 
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
       //home: HomeScreen(),
       //home: LoginScreen(),
       //home: NavigationBarScreen(),
-      home : GetDataDetailScreen(),
+      home : Loginpage(),
     );
   }
 }
